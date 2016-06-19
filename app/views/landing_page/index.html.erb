@@ -1,27 +1,106 @@
-  <div class="slider fullscreen">
-    <ul class="slides">
-      <li>
-        <img src="http://images.freepicturesweb.com/img1/18/16/7.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Pragmatic</h3>
-          <h5 class="light grey-text text-lighten-3">Something here</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://www.skyhdwallpaper.com/wp-content/uploads/2013/09/Nature-Scenes-Wallpaper-7.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Self-Motivated</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?q=75&fm=jpg&s=6a4fc66161293fc4a43a6ca6f073d1c5">
-        <div class="caption right-align">
-          <h3>Resolute</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      </li>
-    </ul>
+<!--navbar header-->
+<nav>
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+</nav>
+
+<!--picture slider-->
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="http://images.freepicturesweb.com/img1/18/16/7.jpg"> <!-- random image -->
+      <div class="caption center-align">
+        <h3>Pragmatic</h3>
+        <h5 class="light grey-text text-lighten-3">Something here</h5>
+      </div>
+    </li>
+    <li>
+      <img src="http://www.skyhdwallpaper.com/wp-content/uploads/2013/09/Nature-Scenes-Wallpaper-7.jpg"> <!-- random image -->
+      <div class="caption left-align">
+        <h3>Self-Motivated</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <img src="https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?q=75&fm=jpg&s=6a4fc66161293fc4a43a6ca6f073d1c5">
+      <div class="caption right-align">
+        <h3>Resolute</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    </li>
+  </ul>
+
+  <ul id="slide-out" class="side-nav">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="#!">First</a></li>
+              <li><a href="#!">Second</a></li>
+              <li><a href="#!">Third</a></li>
+              <li><a href="#!">Fourth</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<!-- <div class="col s12 m8 offset-m2 l6 offset-l3">
+  <div class="card-panel grey lighten-5 z-depth-1">
+    <div class="row valign-wrapper">
+      <div class="col s2">
+        <img src="images/yuna.jpg" alt="" class="circle responsive-img"> notice the "circle" class
+      </div>
+      <div class="col s10">
+        <span class="black-text">
+          This is a square image. Add the "circle" class to it to make it appear circular.
+        </span>
+      </div>
+    </div>
   </div>
-            
+</div> -->
+
+<div class="list" id="list">
+  <ul id="staggered-test">
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Resume</a></h4>
+      <p>This is a description</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Bio</a></h4>
+      <p>This is a description</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">About Me</a></h4>
+      <p>This is a description</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Projects</a></h4>
+      <p>This is a description</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Interests/Hobbies</a></h4>
+      <p>These are a few of my favorite things</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Character References</a></h4>
+      <p>These are a few of my favorite things</p>
+    </li>
+    <li class="" style="transform: translateX(0px); opacity: 1;">
+      <h4><a href="#">Me in 3 words</a></h4>
+      <p>These are a few of my favorite things</p>
+    </li>    
+  </ul>
+
+      <img id="image-test" class="responsive-img" src="https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?dpr=1.25&amp;fit=crop&amp;fm=jpg&amp;h=300&amp;q=75&amp;w=1050" style="opacity: 1;">
+</div>
