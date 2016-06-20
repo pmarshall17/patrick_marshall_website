@@ -1,7 +1,6 @@
 class HomePageController < ApplicationController
 
   def index
-  	@home_pages = landing_page.home_pages
   end
 
   def show
