@@ -1,7 +1,7 @@
 @import 'materialize';
 
 body {
-	background-image: url("http://cdn.pcwallart.com/images/nature-scenes-mountains-wallpaper-4.jpg");
+	background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Awesome-New-York-City-Wallpaper.jpg");
 }
 
 .page-footer {
@@ -12,11 +12,6 @@ body {
 	width: 100%;
 }
 
-/*Need to get this working*/
-/*.list {
-	float: right;
-}*/
-
 .slider-adjustment {
 	position: fixed;
   top: 56px;
@@ -25,3 +20,11 @@ body {
   right: 0;
   overflow: auto;
 }
+
+.circular {
+	width: 375px;
+	height: 400px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	}
