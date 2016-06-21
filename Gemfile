@@ -15,9 +15,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'paperclip'
-gem 'materialize-sass'
+gem 'jquery-rails', '~>4.1.1'
+gem 'paperclip', '~>4.3.6'
+gem 'materialize-sass', '~>0.97.6'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
